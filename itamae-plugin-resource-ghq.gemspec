@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'itamae/plugin/resource/ghq/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "itamae-plugin-resource-ghq"
-  spec.version       = Itamae::Plugin::Resource::Ghq::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Takashi Kokubun"]
   spec.email         = ["takashikkbn@gmail.com"]
   spec.summary       = %q{Itamae resource plugin to manage repositories with ghq.}

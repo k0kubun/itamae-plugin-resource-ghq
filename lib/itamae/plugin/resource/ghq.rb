@@ -1,10 +1,13 @@
-require "itamae/plugin/resource/ghq/version"
+require "itamae/resource/base"
 
 module Itamae
   module Plugin
     module Resource
-      module Ghq
-        # Your code goes here...
+      class Ghq < Itamae::Resource::Base
+        define_attribute :action, default: :create
+
+        def action_create(options)
+        end
       end
     end
   end
