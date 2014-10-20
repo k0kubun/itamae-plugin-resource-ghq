@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Itamae::Plugin::Resource::Ghq::VERSION
   spec.authors       = ["Takashi Kokubun"]
   spec.email         = ["takashikkbn@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Itamae resource plugin to manage repositories by ghq.}
+  spec.description   = %q{Itamae resource plugin to manage repositories by ghq.}
+  spec.homepage      = "https://github.com/k0kubun/itamae-plugin-resource-ghq"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_dependency "itamae"
 end
