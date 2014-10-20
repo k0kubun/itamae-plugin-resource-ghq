@@ -28,7 +28,7 @@ ghq "ryotarai/itamae"
 
 # ghq get -u serverspec/specinfra
 ghq "serverspec/specinfra" do
-  options "-u"
+  action :update
 end
 ```
 
