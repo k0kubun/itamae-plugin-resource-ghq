@@ -1,6 +1,6 @@
 # Itamae::Plugin::Resource::Ghq
 
-[Itamae](https://github.com/ryotarai/itamae) resource plugin to manage repositories by [ghq](https://github.com/ryotarai/itamae).
+[Itamae](https://github.com/ryotarai/itamae) resource plugin to manage repositories with [ghq](https://github.com/ryotarai/itamae).
 
 ## Installation
 

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Itamae::Plugin::Resource::Ghq::VERSION
   spec.authors       = ["Takashi Kokubun"]
   spec.email         = ["takashikkbn@gmail.com"]
-  spec.summary       = %q{Itamae resource plugin to manage repositories by ghq.}
-  spec.description   = %q{Itamae resource plugin to manage repositories by ghq.}
+  spec.summary       = %q{Itamae resource plugin to manage repositories with ghq.}
+  spec.description   = %q{Itamae resource plugin to manage repositories with ghq.}
   spec.homepage      = "https://github.com/k0kubun/itamae-plugin-resource-ghq"
   spec.license       = "MIT"
 
